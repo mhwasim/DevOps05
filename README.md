@@ -59,3 +59,15 @@ Business Continuity: ======================= a. In case of disaster backup resto
 Enable Mobility: =================== a. Gives businesses the ability to enable employees to gain access to data and applications from anywhere b. Making employees more productive when on the go
 
 Access to Automatic Updates: =============================== a. May be included in your service fee b. Depending on your cloud computing service provider, your system will regularly be updated with the latest technology
+
+==================================================================================================================
+
+Difference between Git and GitHub
+
+Git is a version control system that lets you manage and keep track of your source code history GitHub is a cloud-based hosting service that lets you manage Git repositories
+
+Git is a free, open-source software distributed version control system (DVCS) designed to manage all source code history GitHub offers all of Git’s DVCS SCM and has some additional features. This includes collaboration functionality like project management, support ticket management, and bug tracking
+
+Git is installed locally on a system, so developers can manage their source code history using their local machines as repositories GitHub is a cloud based, so Internet access is required. It also has a built-in user-management system and a user-friendly GUI
+
+Git can be used without GitHub GitHub cannot be used without Git
