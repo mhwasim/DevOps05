@@ -71,3 +71,13 @@ Git is a free, open-source software distributed version control system (DVCS) de
 Git is installed locally on a system, so developers can manage their source code history using their local machines as repositories GitHub is a cloud based, so Internet access is required. It also has a built-in user-management system and a user-friendly GUI
 
 Git can be used without GitHub GitHub cannot be used without Git
+
+==================================================================================================================
+
+Stages of Git
+
+Modified: means that you have changed the file but have not committed it to your database yet.
+
+Staged: means that you have marked a modified file in its current version to go into your next commit snapshot.
+
+Committed: means that the data is safely stored in your local database.
