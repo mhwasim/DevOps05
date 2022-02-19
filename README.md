@@ -152,3 +152,10 @@ Exit the above container, and now recreate the container by Volume using bind mo
 --> docker container run -it --name=assignment-2 -p 9001:80 -v /usr/share/nginx/html/:/workingfolder/
 
 ==================================================================================================================
+
+Command to exec into the above container and replace the default index.html to a custom one, which says that â€œI am becoming a Docker Expertâ€ and it should be persisted for the next times.
+
+--> cd workingfolder
+	cat > index.html
+	â€œI am becoming a Docker Expertâ€
+	^C
