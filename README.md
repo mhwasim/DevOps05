@@ -93,3 +93,20 @@ Mixed: ========= It is the default, i.e. git reset means git reset --mixed. It r
 Soft: ======== It doesn't touch the index or work tree. All your files are intact as with --mixed, but all the changes show up as changes to be committed with git status (i.e. checked in in preparation for committing). Use this when you realize you've made some bad commits, but the work's all good - all you need to do is recommit it differently. The index is untouched, so you can commit immediately if you want - the resulting commit will have all the same content as where you were before you reset.
 
 Merge: ========= Was added recently, and is intended to help you abort a failed merge. This is necessary because git merge will actually let you attempt a merge with a dirty work tree (one with local modifications) as long as those modifications are in files unaffected by the merge. git reset --merge resets the index (like --mixed - all changes show up as local modifications), and resets the files affected by the merge, but leaves the others alone. This will hopefully restore everything to how it was before the bad merge. You'll usually use it as git reset --merge (meaning git reset --merge HEAD) because you only want to reset away the merge, not actually move the branch. (HEAD hasn't been updated yet, since the merge failed)
+
+
+=========================================Assignment 2=========================================
+
+Docker Containers vs Virtual Machines
+a) Docker is container based technology and containers are just user space of the operating system Virtual Machine is not based on container technology and made up of user space plus kernel space of an operating system
+b) Docker containers when running share the host OS kernel Virtual Machines share hardware resource from the host
+
+c) Docker container is just a set of processes that are isolated from the rest of the system, running from a distinct image that provides all files necessary to support the processes Virtual Machine has Operating System & Application which run completely in isolation
+
+d) Docer reduced IT management resources, reduced size of snapshots, quicker spinning up apps, reduced & simplified security updates, less code to transfer, migrate and upload workloads Virtual Machine reduced physical IT management resources, can be huge in size of snapshots, time required spinning up apps, complex security updates, large transfer, migrate and upload workloads
+
+e) Docer container is faster to build Virtual Machine require time to build
+
+d) Docker container / image is easy to portable Virtual Machine require more resources
+
+References are taken from below link: https://devopscon.io/blog/docker/docker-vs-virtual-machine-where-are-the-differences/
