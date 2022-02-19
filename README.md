@@ -126,3 +126,11 @@ d) Docker Host: is used to provide an environment to execute and run application
 e) Docker Registry: manages and stores the Docker images. There are two types of registries in the Docker: Pubic Registry: is also called as Docker hub Private Registry: is used to share images within the enterprise
 
 References are taken from below link: https://www.javatpoint.com/docker-architecture
+
+==================================================================================================================
+
+Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 on a custom network named assignment-2
+
+--> docker container run -d --name assignment-2 --publish 9090:80 --network=assignment-2 nginx
+
+==================================================================================================================
