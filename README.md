@@ -136,6 +136,14 @@ Write command to create an nginx container in detached mode with name assignment
 ==================================================================================================================
 
 Write command to see logs of the above container
+
 --> docker container logs assignment-2
 
 ==================================================================================================================
+
+Write commands to Exec into the container and cat the output of the default nginx file at /usr/share/nginx/html/index.html 
+
+--> docker container run -it --name=assignment-2 -p 9001:80 > /usr/share/nginx/html/index.html
+
+==================================================================================================================
+
