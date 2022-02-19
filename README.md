@@ -116,7 +116,7 @@ References are taken from below link: https://devopscon.io/blog/docker/docker-vs
 
 Docker Architecture
 
- a) Docker follows client-server architecture
+a) Docker follows client-server architecture
 b) Docker Client, Docker Host and Docker Registry are three main components of architecture
 
 c) Docker Client: users commands (CLI) and REST APIs to communicate with the Docker Deamon (Server) docker build, docker pull, docker run are some commands used at docker client Dockr client can communicate with more than one docker deamon.
@@ -132,5 +132,10 @@ References are taken from below link: https://www.javatpoint.com/docker-architec
 Write command to create an nginx container in detached mode with name assignment-2 running on host port 9090 on a custom network named assignment-2
 
 --> docker container run -d --name assignment-2 --publish 9090:80 --network=assignment-2 nginx
+
+==================================================================================================================
+
+Write command to see logs of the above container
+--> docker container logs assignment-2
 
 ==================================================================================================================
